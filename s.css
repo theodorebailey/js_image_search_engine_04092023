@@ -1,3 +1,4 @@
+/* apply general styling to whole page */
 *{
     margin: 0;
     padding: 0;
@@ -5,17 +6,20 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* apply styling to body element */
 body{
     background: #392297;
     color: #fff;
 }
 
+/* create heading styling */
 h1{
     text-align: center;
     margin: 100px auto 50px;
     font-weight: 600;
 }
 
+/* create form styling */
 form{
     width: 90%;
     max-width: 600px;
@@ -28,6 +32,7 @@ form{
     border-radius: 8px;
 }
 
+/* create form input styling */
 form input{
     /* use entire available space */
     flex: 1;
@@ -40,6 +45,7 @@ form input{
     padding: 0 30px;
 }
 
+/* create our form button styling */
 form button{
     padding: 0 40px;
     height: 100%;
@@ -53,11 +59,13 @@ form button{
     cursor: pointer;
 }
 
+/* create plceholder styling using pseudo element */
 ::placeholder{
     color: #fff;
     font-size: 18px;
 }
 
+/* create our show more button styling to match */
 #show-more-btn{
     background: #ff3929;
     color: #fff;
@@ -71,6 +79,7 @@ form button{
     display: none;
 }
 
+/* change search result styling */
 #search-result{
     width: 80%;
     margin: 100px auto 50px;
